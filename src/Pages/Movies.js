@@ -31,7 +31,7 @@ function Movies() {
         movies.filter((element) => {
           if (search === '') {
             return element;
-          } if (element.name.toLowerCase().includes(search.toLowerCase())) {
+          } if (element.name.toLowerCase().includes(search.toLowerCase().trim())) {
             return element;
           }
         }).map((movie) => (
