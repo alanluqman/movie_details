@@ -1,8 +1,10 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import axios from 'axios';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchMovies } from '../Redux/movies';
+import '../style/Movies.css';
 
 function Movies() {
   const movies = useSelector((state) => state.movies);
@@ -16,9 +18,13 @@ function Movies() {
   }, []);
 
   return (
-    <ul>
-      {movies.map((movie) => <li key={movie.id}><Link to={`/${movie.name}`}>{movie.name}</Link></li>)}
-    </ul>
+    <>
+      <h1>Movie List</h1>
+      <ul>
+        {movies.map((movie) => <li key={movie.id}><Link to={`/${movie.name}`}>{movie.name}</Link></li>)}
+      </ul>
+      {/* <Link to={`/${movie.name}`}>{movie.name}</Link> */}
+    </>
   );
 }
 

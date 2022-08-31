@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+h1 {
+  width: fit-content;
+  margin-left: 20px;
+}
+
+nav {
+  margin: auto;
+  max-width: 1000px;
+}

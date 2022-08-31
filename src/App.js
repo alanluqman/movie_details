@@ -4,16 +4,16 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import store from './Redux/configStore';
 import './style/App.css';
 import Movies from './Pages/Movies';
-import Navigation from './components/navigation';
+import Movie from './components/Movie';
 
 function App() {
   return (
     <>
       <Provider store={store}>
         <BrowserRouter>
-          <Navigation />
           <Routes>
             <Route path="/" element={<Movies />} />
+            <Route path=":id" element={<Movie />} />
           </Routes>
         </BrowserRouter>
       </Provider>
