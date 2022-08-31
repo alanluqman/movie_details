@@ -1,0 +1,41 @@
+.movie-holder {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.detail-holder {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.movie-name-detail {
+  margin-top: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 185, 79);
+}
+
+h2,
+p {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  color: rgb(161, 161, 161);
+}
+
+.detailItems {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  vertical-align: top;
+  gap: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .detail-holder {
+    grid-template-columns: 1fr 1fr;
+  }
+}

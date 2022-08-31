@@ -21,7 +21,7 @@ function Movies() {
     <div className="movieListHolder">
       <div className="header">
         <h1>Movie List</h1>
-        <input type={Text} className="search-box" placeholder="Search..." />
+        <input className="search-box" placeholder="Search..." />
       </div>
       <ul className="moviesDisplay">
         {
