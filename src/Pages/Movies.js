@@ -18,13 +18,25 @@ function Movies() {
   }, []);
 
   return (
-    <>
-      <h1>Movie List</h1>
-      <ul>
-        {movies.map((movie) => <li key={movie.id}><Link to={`/${movie.name}`}>{movie.name}</Link></li>)}
+    <div className="movieListHolder">
+      <div className="header">
+        <h1>Movie List</h1>
+        <input type={Text} className="search-box" placeholder="Search..." />
+      </div>
+      <ul className="moviesDisplay">
+        {
+        movies.map((movie) => (
+          <li key={movie.id}>
+            <Link to={`/${movie.name}`}>
+              <img className="poster" src={movie.image.medium} alt="poster" />
+              <p className="movie-name">{movie.name}</p>
+            </Link>
+          </li>
+        ))
+        }
       </ul>
       {/* <Link to={`/${movie.name}`}>{movie.name}</Link> */}
-    </>
+    </div>
   );
 }
 
