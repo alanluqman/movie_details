@@ -1,7 +1,7 @@
 {
   "name": "movie_details",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "http://alanluqman.github.io/movie_details",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
@@ -19,9 +19,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
