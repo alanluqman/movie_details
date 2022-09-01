@@ -1,7 +1,6 @@
 {
   "name": "movie_details",
   "version": "0.1.0",
-  "homepage": "http://alanluqman.github.io/movie_details",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
