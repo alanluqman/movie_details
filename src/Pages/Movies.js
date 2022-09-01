@@ -13,6 +13,7 @@ function Movies() {
   const dispatch = useDispatch();
   const api = 'https://api.tvmaze.com/shows';
   useEffect(() => async () => {
+    console.log(movies);
     if (movies.length === 0) {
       const movieList = await axios.get(api).then((Response) => Response.data);
       dispatch(fetchMovies(movieList));
