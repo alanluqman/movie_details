@@ -25,7 +25,7 @@ function Movie() {
             <h2>Genres :</h2>
             <p>{(movie.genres).join(' , ')}</p>
             <h2>Summary :</h2>
-            <p>{movie.summary}</p>
+            <p>{movie.summary.replace(/<p>|<b>|<\/p>|<\/b>/g, '')}</p>
           </div>
         </div>
       </div>
