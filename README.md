@@ -11,8 +11,8 @@
 - JavaScript
 
 ## Live Demo
-visit the website on [Netlify](https://moviesdetails.netlify.app/)
-visit the website on [Github-page](https://alanluqman.github.io/movie_details/)
+- visit the website on [Netlify](https://moviesdetails.netlify.app/)
+- visit the website on [Github-page](https://alanluqman.github.io/movie_details/)
 
 ## Legend Video
 please watch this [video]()
