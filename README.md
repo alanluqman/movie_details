@@ -10,6 +10,13 @@
 - Redux
 - JavaScript
 
+## Live Demo
+visit the website on [Netlify](https://moviesdetails.netlify.app/)
+visit the website on [Github-page](https://alanluqman.github.io/movie_details/)
+
+## Legend Video
+please watch this [video]()
+
 ## Get Started
 To get a local copy of this calculator, Please follow these simple example steps.
 1. Open Git Bash.
