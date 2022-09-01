@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Movies page component check for Movie List title render 1`] = `
+<h1>
+  Movie List
+</h1>
+`;
+
+exports[`Movies page component check for search box render 1`] = `
+<input
+  class="search-box"
+  placeholder="Search..."
+/>
+`;
