@@ -12,12 +12,9 @@ function Movies() {
   const movies = useSelector((state) => state.movies);
   const dispatch = useDispatch();
   const api = 'https://api.tvmaze.com/shows';
-  useEffect(async () => {
-    /*eslint-disable*/
-    console.log(movies);
+  useEffect(() => {
     if (movies.length === 0) {
-      const movieList = await axios.get(api).then((Response) => Response.data);
-      dispatch(fetchMovies(movieList));
+      axios.get(api).then((Response) => dispatch(fetchMovies(Response.data)));
     }
   }, []);
 

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
@@ -7,7 +8,9 @@ import '../style/Movie.css';
 function Movie() {
   const { id } = useParams();
   const allMovies = useSelector((state) => state.movies);
+  console.log(allMovies);
   const movie = allMovies.find((element) => element.name === id);
+  console.log(movie);
   return (
     <div className="movie-holder">
       <Navigation />
