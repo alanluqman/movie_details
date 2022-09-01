@@ -12,7 +12,7 @@ function Movies() {
   const movies = useSelector((state) => state.movies);
   const dispatch = useDispatch();
   const api = 'https://api.tvmaze.com/shows';
-  useEffect(() => async () => {
+  useEffect(async () => {
     /*eslint-disable*/
     console.log(movies);
     if (movies.length === 0) {
