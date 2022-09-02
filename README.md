@@ -11,11 +11,10 @@
 - JavaScript
 
 ## Live Demo
-- visit the website on [Netlify](https://moviesdetails.netlify.app/)
-- visit the website on [Github-page](https://alanluqman.github.io/movie_details/)
+- To visit the website [Click Here](https://moviesdetails.netlify.app/)
 
 ## Legend Video
-please watch this [video]()
+please watch this [video](https://www.loom.com/share/17bf12e169414dc394db7bf445e304ef)
 
 ## Get Started
 To get a local copy of this calculator, Please follow these simple example steps.
